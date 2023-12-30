@@ -155,7 +155,7 @@ def plot_map_prod(gdf_merge_fields_prod_geo, mapbox_access_token, selected_year)
             bearing=0, pitch=0, zoom=5.3,
             center={"lat": 59, "lon": 2}
         ),
-        autosize=True, height=900, width=900,
+        autosize=True, height=850, width=900,
         title='Production in Norwegian North Sea',
         showlegend=False
     )
