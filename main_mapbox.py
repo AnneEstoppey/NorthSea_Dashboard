@@ -4,9 +4,7 @@ import plotly.graph_objects as go
 import pandas as pd
 import geopandas as gpd
 import numpy as np
-from shapely import wkt
 from app_token import MAPBOX_TOKEN
-import sys
 
 # Your Mapbox Access Token
 mapbox_access_token = MAPBOX_TOKEN
