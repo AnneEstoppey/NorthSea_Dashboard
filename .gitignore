@@ -1,0 +1,9 @@
+data_from_NPD/.DS_Store
+data_from_NPD/old
+
+__pycache__/
+
+app_token.py
+data_wrangling.ipynb
+main.py
+main_mapbox_.py
