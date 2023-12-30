@@ -25,7 +25,7 @@ st.markdown("""
 [data-testid="block-container"] {
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 0rem;
+    padding-top: 1rem;
     padding-bottom: 0rem;
     margin-bottom: 0rem;
 }
