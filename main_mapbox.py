@@ -39,31 +39,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-
-###################
-#### Wellbores ####
-###################
-
-# Function to extract longitude and latitude from WKT format
-def extract_coordinates(wkt):
-    try:
-        coords = wkt.split('(')[1].split(')')[0].split(' ')
-        return float(coords[0]), float(coords[1])
-    except:
-        return None, None
-
-# Loading the datasets, wellbore data and field data
-data_wells = pd.read_csv('./data_from_NPD/wlbPoint.csv', low_memory=False)
-
-# Extracting longitude and latitude from the 'wlbPointGeometryWKT' column
-data_wells[['longitude', 'latitude']] = data_wells['wlbPointGeometryWKT'].apply(lambda x: pd.Series(extract_coordinates(x)))
-
-# Dropping rows with invalid or missing coordinate data
-map_data_wells = data_wells.dropna(subset=['longitude', 'latitude'])
-map_data_wells = map_data_wells[['wlbWellboreName', 'longitude', 'latitude']]
-
-
-
 ####################################
 #### Fields and production data ####
 ####################################

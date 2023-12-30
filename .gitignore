@@ -3,7 +3,7 @@ data_from_NPD/old
 
 __pycache__/
 
+old/
+
 app_token.py
 data_wrangling.ipynb
-main.py
-main_mapbox_.py
