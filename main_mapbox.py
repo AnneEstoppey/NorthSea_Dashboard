@@ -9,6 +9,8 @@ import numpy as np
 # Your Mapbox Access Token
 ## mapbox_access_token = MAPBOX_TOKEN
 
+mapbox_access_token = st.secrets["MABOX_TOKEN"]
+
 # Page configuration
 st.set_page_config(
     page_title="NPD dashboard",
