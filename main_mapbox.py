@@ -19,24 +19,35 @@ st.set_page_config(
     initial_sidebar_state="collapsed")
 
 # CSS styling
-st.markdown("""
-<style>
+# st.markdown("""
+# <style>
 
-[data-testid="block-container"] {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: -1rem;
-    margin-bottom: -1rem;
-}
+# [data-testid="block-container"] {
+#     padding-left: 2rem;
+#     padding-right: 2rem;
+#     padding-top: 1rem;
+#     padding-bottom: -1rem;
+#     margin-bottom: -1rem;
+# }
             
-[data-testid="stVerticalBlock"] {
-    padding-left: 0rem;
-    padding-right: 0rem;
-}
+# [data-testid="stVerticalBlock"] {
+#     padding-left: 0rem;
+#     padding-right: 0rem;
+# }
 
-</style>
-""", unsafe_allow_html=True)
+# </style>
+# """, unsafe_allow_html=True)
+
+st.markdown("""
+    <style>
+            .block-container {
+                padding-top: 1rem;
+                padding-bottom: 0rem;
+                padding-left: 5rem;
+                padding-right: 5rem;
+            }
+    </style>
+    """, unsafe_allow_html=True)
 
 
 ####################################
