@@ -29,6 +29,17 @@ st.markdown("""
     padding-bottom: 0rem;
     margin-bottom: 0rem;
 }
+            
+[data-testid="stVerticalBlock"] {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+            
+[data-testid="stHorizontalBlock"] {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 0rem;
+}
 
 </style>
 """, unsafe_allow_html=True)
