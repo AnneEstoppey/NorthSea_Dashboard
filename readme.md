@@ -1,7 +1,4 @@
 ## Interactive Dashboard, Norwegian North Sea Oil&Gas Production - 1971 to 2023
-
-<project description here><br>
-
 Live link to Dashboard: https://northseadashboard.streamlit.app/
 
 ### References
