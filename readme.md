@@ -1,9 +1,11 @@
 ## Interactive Dashboard, Norwegian North Sea Oil&Gas Production - 1971 to 2023
 Direct live link to Dashboard: https://northseadashboard.streamlit.app/
 
-The goal of creating this dashboard is to work with production data directly from the downloaded files (.csv and shapefiles), and visualize the field production through the years.
+The goal of creating this dashboard is to work with production data directly from the downloaded files (.csv and shapefiles), and visualize the field production through the years.<br>
 
 With the slider, the user can move through the years and select years 1971 to 2023 with increment of 5 years.
+
+Hovering close to the data points or field outlines will show popups with more detailed information.
 
 Production units are mill Sm3 OE (million Standard cubic meters Oil Equivanlent).
 
@@ -38,3 +40,6 @@ Source: https://www.npd.no/en/about-us/open-data/
 
 Source: https://factpages.npd.no/en/field/TableView/Production/Saleable/Yearly
 - Field production by year (1971 to 2023)
+
+Inspiration for this dashboard, please check YouTube tutorial from DataProfessor on Streamlit channel here:<br>
+https://www.youtube.com/watch?v=asFqpMDSPdM
