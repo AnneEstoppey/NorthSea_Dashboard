@@ -26,8 +26,8 @@ st.markdown("""
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
-    padding-bottom: 0rem;
-    margin-bottom: 1rem;
+    padding-bottom: -1rem;
+    margin-bottom: -1rem;
 }
             
 [data-testid="stVerticalBlock"] {
