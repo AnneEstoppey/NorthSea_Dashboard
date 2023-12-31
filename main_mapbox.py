@@ -41,10 +41,10 @@ st.set_page_config(
 st.markdown("""
     <style>
             .block-container {
-                padding-top: 11rem;
+                padding-top: 1rem;
                 padding-bottom: 0rem;
-                padding-left: 0rem;
-                padding-right: 0rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
                 gap: 0rem;
             }
     </style>
