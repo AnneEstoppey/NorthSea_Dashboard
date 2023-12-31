@@ -13,11 +13,11 @@ We restrained the geographical area to the Norwegian side of the North Sea, so t
 
 The outlines of the fields are the current outlines (2023).
 
-![01_NPD_dashboard_screenshot](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/89a03e80-b5af-425b-b89d-10f327ca67ba)
+![01_NPD_dashboard_screenshot](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/5c4f8bbd-b8e4-4621-9246-16ecf9131b4a)
 
 ![03_NPD_dashboard_screenshot](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/70a79803-316c-4adc-855a-d5355780e104)
 
-![02_NPD_dashboard_screenshot](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/f694d56f-d051-4e5a-93bd-dd5ae2350b34)
+![02_NPD_dashboard_screenshot](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/38a64e14-4319-4b9c-8e64-fadff3ea0c66)
 
 Author: Anne Estoppey.
 
