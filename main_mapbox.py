@@ -173,7 +173,7 @@ year_options = [1971, 1976, 1981, 1986, 1991, 1996, 2001, 2006, 2011, 2016, 2021
 
 # Slider for selecting the year
 with slider_container:
-    selected_year = st.select_slider("Select a Year", options=year_options, value=2023)
+    selected_year = st.select_slider("Select a Year - Browse over fields for more information", options=year_options, value=2023)
 
 # Plot the map
 with map_container:
