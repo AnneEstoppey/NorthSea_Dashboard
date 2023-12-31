@@ -149,7 +149,7 @@ def plot_map_prod(gdf_merge_fields_prod_geo, mapbox_access_token, selected_year)
             center={"lat": 59, "lon": 2}
         ),
         autosize=True, height=850, width=900,
-        title='Production in Norwegian North Sea',
+        title='Field Production in Norwegian North Sea - mill Sm3 OE',
         showlegend=False
     )
 
@@ -163,7 +163,7 @@ map_container = st.container()
 slider_container = st.container()
 
 with title_container:
-    st.markdown("<h2 style='text-align: center;'>Norwegian North Sea - Production 1971 to 2023</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Norwegian North Sea - Field Production 1971 to 2023</h2>", unsafe_allow_html=True)
 
 ## with subtitle_container:
 ##    st.markdown("<div style='text-align: center;'>General description here.</div>", unsafe_allow_html=True)
