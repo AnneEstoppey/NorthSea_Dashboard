@@ -33,7 +33,7 @@ All data is coming from the public datasets from Norwegian Petroleum Directorate
 
 **Datasets:**
 
-Note that the following links will have to be updated from 1st of January 2024.
+Note that the following links might have to be updated from 1st of January 2024.
 
 Source: https://www.npd.no/en/about-us/open-data/
 - Field outlines (zipped shapefile)
