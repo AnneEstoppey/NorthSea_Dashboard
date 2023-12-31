@@ -43,3 +43,6 @@ Source: https://factpages.npd.no/en/field/TableView/Production/Saleable/Yearly
 
 Inspiration for this dashboard, please check YouTube tutorial from DataProfessor on Streamlit channel here:<br>
 https://www.youtube.com/watch?v=asFqpMDSPdM
+
+Also article from Alan Jones in Medium (subscription might be required):<br>
+https://medium.com/towards-data-science/how-to-create-a-simple-gis-map-with-plotly-and-streamlit-7732d67b84e2
