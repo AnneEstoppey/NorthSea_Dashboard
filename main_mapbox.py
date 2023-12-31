@@ -186,7 +186,3 @@ with slider_container:
 with map_container:
     fig_prod = plot_map_prod(gdf_merge_fields_prod_geo, mapbox_access_token, selected_year)
     st.plotly_chart(fig_prod, use_container_width=True)
-
-# with List_container:
-    # show first 3 rows of dataframe gdf_merge_fields_prod_geo with only year 2023
-    # st.write(gdf_merge_fields_prod_geo[['fieldName', 'OpLongName', 'Dctype', 'curActStat', 'discWelNam', 'discYear', '2023']].head(3))
