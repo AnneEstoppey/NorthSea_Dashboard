@@ -42,7 +42,8 @@ All data is coming from the public datasets from Norwegian Offshore Directorate:
 Source: https://www.sodir.no/en/about-us/open-data/
 - Field outlines (zipped shapefile)
 
-Source: https://factpages.npd.no/en/field/TableView/Production/Saleable/Yearly
+Source: https://factpages.npd.no/en/field/TableView/Production/Saleable/Yearly<br>
+(the link above might be updated early 2024)
 - Field production by year (1971 to 2023)
 
 Inspiration for this dashboard, please check YouTube tutorial from DataProfessor on Streamlit channel here:<br>
