@@ -35,7 +35,7 @@ We installed all the specific libraries with:<br>
 
 
 ### References
-All data is coming from the public datasets from Norwegian Petroleum Directorate (NPD), or from 1st of January 2024, the Norwegian Offshore Directorate.
+All data is coming from the public datasets from Norwegian Offshore Directorate: https://www.sodir.no/en/.
 
 **Datasets:**
 
