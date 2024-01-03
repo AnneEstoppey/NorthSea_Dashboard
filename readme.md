@@ -46,6 +46,8 @@ Source: https://factpages.npd.no/en/field/TableView/Production/Saleable/Yearly<b
 (the link above might be updated early 2024)
 - Field production by year (1971 to 2023)
 
+<br>
+<br>
 Inspiration for this dashboard, please check YouTube tutorial from DataProfessor on Streamlit channel here:<br>
 https://www.youtube.com/watch?v=asFqpMDSPdM
 
