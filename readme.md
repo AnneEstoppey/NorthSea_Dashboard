@@ -33,6 +33,8 @@ Specific libraries (see requirements file on this repo):<br>
 We installed all the specific libraries with:<br>
 > conda install --channel conda-forge library_name
 
+Note that as background we used MapBox Dark Theme, api token is free to use, please check on their website.
+
 
 ### References
 All data is coming from the public datasets from Norwegian Offshore Directorate: https://www.sodir.no/en/.<br>
