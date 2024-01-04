@@ -8,3 +8,5 @@ old/
 
 app_token.py
 data_wrangling.ipynb
+main_mapbox_localhost.py
+*.csv

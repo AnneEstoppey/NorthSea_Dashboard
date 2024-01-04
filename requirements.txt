@@ -1,2 +1,3 @@
 geopandas
 plotly_express
+altair

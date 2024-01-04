@@ -5,14 +5,14 @@ import pandas as pd
 import geopandas as gpd
 import numpy as np
 import altair as alt
-# from app_token import MAPBOX_TOKEN    # <--- use this for dev on localhost
+from app_token import MAPBOX_TOKEN
 
 import sys
 
 # Your Mapbox Access Token
-## mapbox_access_token = MAPBOX_TOKEN   # <--- use this for dev on localhost
+mapbox_access_token = MAPBOX_TOKEN
 
-mapbox_access_token = st.secrets["MAPBOX_TOKEN"] # <--- use this for prod on Streamlit server
+# mapbox_access_token = st.secrets["MAPBOX_TOKEN"] # <--- use this for prod on Streamlit server
 
 # Page configuration
 st.set_page_config(
