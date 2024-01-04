@@ -1,9 +1,8 @@
 ## Interactive Dashboard, Norwegian Continental Shelf Oil&Gas Production - 1971 to 2023
 Direct live link to Dashboard: https://northseadashboard.streamlit.app/
 
-The goal of creating this dashboard is to work with production data directly from the downloaded files (.csv and shapefiles), and visualize the field production through the years.<br>
-We also wanted to experiment with additional elements like a donut graph, and some more advanced table visualisation.<br>
-We hope you like it!<br>
+The goal of creating this dashboard was to work with production data directly from the downloaded files (.csv and shapefiles), and visualize the field production through the years.<br>
+We also wished to experiment with additional elements like a donut graph, and some more advanced table visualization. We hope you like it!<br>
 
 With the slider, the user can move through the years and select years 1971 to 2023 with increment of 5 years.
 
