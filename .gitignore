@@ -9,4 +9,6 @@ old/
 app_token.py
 data_wrangling.ipynb
 main_mapbox_localhost.py
-*.csv
+main_mapbox_localhost_copy.py
+df_sum_prod_yearly_NS.csv
+sum_prod_yearly_NS.csv
