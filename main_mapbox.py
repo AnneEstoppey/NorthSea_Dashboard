@@ -49,8 +49,6 @@ csv_field_prod_file_path = './data_from_NPD/field_production_totalt_NCS_year__Di
 # Function to read the fields shapefile
 def read_shapefile(zip_shapefile_path):
     gdf_fields = gpd.read_file(f"zip://{zip_shapefile_path}")
-    ## gdf_fields = gdf_fields[gdf_fields['main_area'] == 'North sea'].reset_index(drop=True)
-    # gdf_fields_NS = gdf_fields_NS.to_crs(epsg=4326)
     return gdf_fields
 
 
