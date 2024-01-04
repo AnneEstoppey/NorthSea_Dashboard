@@ -15,6 +15,8 @@ The outlines of the fields are the current outlines (2023).
 
 ![NPD_dashboard_screenshot01](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/7cd0be92-4c77-4672-b4ef-7e8f2e2b0cc3)
 
+![NPD_dashboard_screenshot02](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/9f2a8f22-5c7b-4785-bc6c-bac62fb9226b)
+
 Author: Anne Estoppey.
 
 ### Install
