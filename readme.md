@@ -1,7 +1,9 @@
-## Interactive Dashboard, Norwegian North Sea Oil&Gas Production - 1971 to 2023
+## Interactive Dashboard, Norwegian Continental Shelf Oil&Gas Production - 1971 to 2023
 Direct live link to Dashboard: https://northseadashboard.streamlit.app/
 
 The goal of creating this dashboard is to work with production data directly from the downloaded files (.csv and shapefiles), and visualize the field production through the years.<br>
+We also wanted to experiment with additional elements like a donut graph, and some more advanced table visualisation.<br>
+We hope you like it!<br>
 
 With the slider, the user can move through the years and select years 1971 to 2023 with increment of 5 years.
 
@@ -9,15 +11,9 @@ Hovering close to the data points or field outlines will show popups with more d
 
 Production units are mill Sm3 OE (million Standard cubic meters Oil Equivanlent).
 
-We restrained the geographical area to the Norwegian side of the North Sea, so that handling of data was less time consuming during developement for rendering on localhost.
-
 The outlines of the fields are the current outlines (2023).
 
-![01_NPD_dashboard_screenshot](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/5c4f8bbd-b8e4-4621-9246-16ecf9131b4a)
-
-![03_NPD_dashboard_screenshot](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/70a79803-316c-4adc-855a-d5355780e104)
-
-![02_NPD_dashboard_screenshot](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/38a64e14-4319-4b9c-8e64-fadff3ea0c66)
+![NPD_dashboard_screenshot01](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/7cd0be92-4c77-4672-b4ef-7e8f2e2b0cc3)
 
 Author: Anne Estoppey.
 
@@ -29,13 +25,15 @@ Specific libraries (see requirements file on this repo):<br>
 - geopandas
 - streamlit
 - plotly express
+- altair
 
 We installed all the specific libraries with:<br>
 > conda install --channel conda-forge library_name
 
 
 ### References
-All data is coming from the public datasets from Norwegian Offshore Directorate: https://www.sodir.no/en/.
+All data is coming from the public datasets from Norwegian Offshore Directorate: https://www.sodir.no/en/.<br>
+(previously: Norwegian Petroleum Directorate or NPD)
 
 **Datasets:**
 
