@@ -123,9 +123,9 @@ def sum_prod_yearly_NS(gdf_merge_fields_prod_geo):
     return df_sum_prod_yearly_NS
 
 
+# Function to read the total yearly production
+# for whole Norwegian continental shelf
 def read_prod_data_yearly_total(csv_file_path):
-    # Function to read the total yearly production
-    # for whole Norwegian continental shelf
     df_prod_data_yearly_total = pd.read_csv(csv_file_path, sep=',')
     # drop all fields, except 'prfYear' and 'prfPrdOeNetMillSm3'
     df_prod_data_yearly_total = df_prod_data_yearly_total[['prfYear', 'prfPrdOeNetMillSm3']]
