@@ -49,6 +49,7 @@ csv_field_prod_file_path = './data_from_NPD/field_production_totalt_NCS_year__Di
 # Function to read the fields shapefile
 def read_shapefile(zip_shapefile_path):
     gdf_fields = gpd.read_file(f"zip://{zip_shapefile_path}")
+    gdf_fields.crs = "EPSG:23032"   # Set the coordinate reference system (CRS) to UTM zone 32N, ED50
     return gdf_fields
 
 
