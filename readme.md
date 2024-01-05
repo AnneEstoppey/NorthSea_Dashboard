@@ -16,7 +16,7 @@ The outlines of the fields are the current outlines (2023).
 
 ![NPD_dashboard_screenshot02](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/9f2a8f22-5c7b-4785-bc6c-bac62fb9226b)
 
-(tested on MS Edge and Chrome in Windows and Safari on MacOS)<br>
+(tested on MS Edge and Chrome in Windows 11, Safari on MacOS, and with iOS on iPhone)<br>
 
 Author: Anne Estoppey, 2024.
 
