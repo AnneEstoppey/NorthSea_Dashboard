@@ -5,14 +5,14 @@ import pandas as pd
 import geopandas as gpd
 import numpy as np
 import altair as alt
-# from app_token import MAPBOX_TOKEN    # <--- use this for dev on localhost
+from app_token import MAPBOX_TOKEN    # <--- use this for dev on localhost
 
 import sys
 
 # Your Mapbox Access Token
-## mapbox_access_token = MAPBOX_TOKEN   # <--- use this for dev on localhost
+mapbox_access_token = MAPBOX_TOKEN   # <--- use this for dev on localhost
 
-mapbox_access_token = st.secrets["MAPBOX_TOKEN"] # <--- use this for prod on Streamlit server
+## mapbox_access_token = st.secrets["MAPBOX_TOKEN"] # <--- use this for prod on Streamlit server
 
 # Page configuration
 st.set_page_config(
@@ -42,7 +42,7 @@ st.markdown("""
 #########################
 
 zip_shapefile_path = './data_from_NPD/fldArea_shape.zip'
-csv_prod_file_path = './data_from_NPD/production-yearly-by-field.csv'
+csv_prod_file_path = './data_from_NPD/field_production_yearly.csv'
 csv_field_prod_file_path = './data_from_NPD/field_production_totalt_NCS_year__DisplayAllRows.csv'
 
 
@@ -55,7 +55,7 @@ def read_shapefile(zip_shapefile_path):
 
 # Function to read and clean the field production data
 def read_and_clean_prod_data(csv_file_path):
-    df_prod_data = pd.read_csv(csv_file_path, sep=';')
+    df_prod_data = pd.read_csv(csv_file_path, sep=',')
     df_prod_data[df_prod_data._get_numeric_data() < 0] = 0
     return df_prod_data
 
