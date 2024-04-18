@@ -10,7 +10,7 @@ Hovering close to the data points or field outlines will show popups with more d
 
 Production units are mill Sm3 OE (million Standard cubic meters Oil Equivanlent).
 
-The outlines of the fields are the current outlines (2023).
+The outlines of the fields are from December 2023.
 
 ![NPD_dashboard_screenshot01](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/7cd0be92-4c77-4672-b4ef-7e8f2e2b0cc3)
 
