@@ -8,7 +8,7 @@ With the slider, the user can move through the years and select years 1971 to 20
 
 Hovering close to the data points or field outlines will show popups with more detailed information.
 
-Production units are mill Sm3 OE (million Standard cubic meters Oil Equivanlent).
+Production units are mill Sm3 OE (million Standard cubic meters Oil Equivalent).
 
 The outlines of the fields are from December 2023.
 
