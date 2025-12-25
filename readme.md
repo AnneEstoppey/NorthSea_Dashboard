@@ -10,7 +10,7 @@ Hovering close to the data points or field outlines will show popups with more d
 
 Production units are mill Sm3 OE (million Standard cubic meters Oil Equivalent).
 
-The outlines of the fields are from December 2023.
+The outlines of the fields are from December 2025.
 
 ![NPD_dashboard_screenshot01](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/7cd0be92-4c77-4672-b4ef-7e8f2e2b0cc3)
 
@@ -58,6 +58,7 @@ https://www.youtube.com/watch?v=asFqpMDSPdM
 
 Also article from Alan Jones in Medium (subscription might be required):<br>
 https://medium.com/towards-data-science/how-to-create-a-simple-gis-map-with-plotly-and-streamlit-7732d67b84e2
+
 
 
 
