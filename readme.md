@@ -14,7 +14,7 @@ The outlines of the fields are from December 2025.
 
 <img width="3346" height="1800" alt="image" src="https://github.com/user-attachments/assets/a90e8531-7d26-4944-b07a-4287a2216a0f" />
 
-![NPD_dashboard_screenshot02](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/9f2a8f22-5c7b-4785-bc6c-bac62fb9226b)
+<img width="3334" height="1794" alt="image" src="https://github.com/user-attachments/assets/e8cf1467-c628-43fd-9e0a-7b2f363a996e" />
 
 (tested on MS Edge and Chrome in Windows 11, Safari on MacOS, and with iOS on iPhone)<br>
 
@@ -58,6 +58,7 @@ https://www.youtube.com/watch?v=asFqpMDSPdM
 
 Also article from Alan Jones in Medium (subscription might be required):<br>
 https://medium.com/towards-data-science/how-to-create-a-simple-gis-map-with-plotly-and-streamlit-7732d67b84e2
+
 
 
 
