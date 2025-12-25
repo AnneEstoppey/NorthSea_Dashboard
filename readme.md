@@ -1,10 +1,10 @@
-## Interactive Dashboard, Norwegian Continental Shelf Oil&Gas Production - 1971 to 2023
+## Interactive Dashboard, Norwegian Continental Shelf Oil&Gas Production - 1971 to 2025
 
 The goal of creating this dashboard was to work with production data directly from the downloaded files (.csv and shapefiles), and visualize the field production through the years.<br>
 
 We also wished to experiment with additional elements like a donut graph, and some more advanced table visualization.<br>
 
-With the slider, the user can move through the years and select years 1971 to 2023 with increment of 5 years.
+With the slider, the user can move through the years and select years 1971 to 2025 with increment of 5 years.
 
 Hovering close to the data points or field outlines will show popups with more detailed information.
 
@@ -18,7 +18,7 @@ The outlines of the fields are from December 2023.
 
 (tested on MS Edge and Chrome in Windows 11, Safari on MacOS, and with iOS on iPhone)<br>
 
-Author: Anne Estoppey, 2024.
+Author: Anne Estoppey, 2025.
 
 ### Install
 
@@ -46,10 +46,10 @@ Source: https://www.sodir.no/en/about-us/open-data/
 - Field outlines (zipped shapefile)
 
 Source: https://factpages.sodir.no/en/field/TableView/Production/Saleable/Yearly<br>
-- Field production by year (1971 to 2023)
+- Field production by year (1971 to 2025)
 
 Source: https://factpages.sodir.no/en/field/TableView/Production/Saleable/TotalNcsYear
-- Total offshore production by year (1971 to 2023)
+- Total offshore production by year (1971 to 2025)
 
 <br>
 <br>
@@ -58,4 +58,5 @@ https://www.youtube.com/watch?v=asFqpMDSPdM
 
 Also article from Alan Jones in Medium (subscription might be required):<br>
 https://medium.com/towards-data-science/how-to-create-a-simple-gis-map-with-plotly-and-streamlit-7732d67b84e2
+
 
