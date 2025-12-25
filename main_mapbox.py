@@ -312,7 +312,7 @@ with main_container:
         st.dataframe(df_prod_for_table_element,
                      column_order=('prfInformationCarrier', str(selected_year)),
                      hide_index=True,
-                     width=None,
+                     width="stretch",
                      column_config={'prfInformationCarrier': st.column_config.TextColumn(
                          'Field Name',
                         ),
