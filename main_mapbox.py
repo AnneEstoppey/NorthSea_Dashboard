@@ -87,14 +87,14 @@ def prepare_prod_data(df_prod_data):
         columns='prfYear', 
         values='prfPrdOeNetMillSm3', 
         aggfunc='sum').fillna(0)
-    df_production_all_years = df_production_all_years.loc[:, '1971':'2023']
+    df_production_all_years = df_production_all_years.loc[:, '1971':'2025']
     df_production_all_years.columns = df_production_all_years.columns.astype(str)
     df_production_all_years.reset_index(inplace=True)
     df_production_all_years.columns.name = None
 
     selected_columns = ['prfInformationCarrier', 'prfNpdidInformationCarrier', 
                         '1971', '1976', '1981', '1986', '1991', '1996', 
-                        '2001', '2006', '2011', '2016', '2021', '2023']
+                        '2001', '2006', '2011', '2016', '2021', '2025']
     return df_production_all_years[selected_columns]
 
 
@@ -273,7 +273,7 @@ main_container = st.container()
 
 
 with title_container:
-    st.markdown("<h2 style='text-align: center;'>Norwegian Continental Shelf - Field Production 1971 to 2023</h2>", 
+    st.markdown("<h2 style='text-align: center;'>Norwegian Continental Shelf - Field Production 1971 to 2025</h2>", 
                 unsafe_allow_html=True)
     st.markdown("")  # Add extra space below the title
 
@@ -284,13 +284,13 @@ with main_container:
 
     with left_column:
         # Define the specific years for the slider
-        year_options = [1971, 1976, 1981, 1986, 1991, 1996, 2001, 2006, 2011, 2016, 2021, 2023]
+        year_options = [1971, 1976, 1981, 1986, 1991, 1996, 2001, 2006, 2011, 2016, 2021, 2025]
 
         # Slider for selecting the year
         selected_year = st.select_slider(
                             "Select a Year - Browse over fields for more information", 
                             options=year_options, 
-                            value=2023,
+                            value=2025,
                             )
         # Plot the map
         fig_prod = plot_map_prod(gdf_merge_fields_prod_geo, mapbox_access_token, selected_year)
