@@ -42,7 +42,7 @@ All data is coming from the public datasets from Norwegian Offshore Directorate:
 
 **Datasets:**
 
-Source: https://www.sodir.no/en/about-us/open-data/
+Source: https://www.sodir.no/en/facts/data-and-analyses/open-data
 - Field outlines (zipped shapefile)
 
 Source: https://factpages.sodir.no/en/field/TableView/Production/Saleable/Yearly<br>
@@ -58,5 +58,6 @@ https://www.youtube.com/watch?v=asFqpMDSPdM
 
 Also article from Alan Jones in Medium (subscription might be required):<br>
 https://medium.com/towards-data-science/how-to-create-a-simple-gis-map-with-plotly-and-streamlit-7732d67b84e2
+
 
 
