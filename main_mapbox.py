@@ -273,6 +273,7 @@ main_container = st.container()
 
 
 with title_container:
+    st.markdown("")  # Add extra space above the title
     st.markdown("<h2 style='text-align: center;'>Norwegian Continental Shelf - Field Production 1971 to 2025</h2>", 
                 unsafe_allow_html=True)
     st.markdown("")  # Add extra space below the title
