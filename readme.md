@@ -12,7 +12,7 @@ Production units are mill Sm3 OE (million Standard cubic meters Oil Equivalent).
 
 The outlines of the fields are from December 2025.
 
-![NPD_dashboard_screenshot01](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/7cd0be92-4c77-4672-b4ef-7e8f2e2b0cc3)
+<img width="3346" height="1800" alt="image" src="https://github.com/user-attachments/assets/a90e8531-7d26-4944-b07a-4287a2216a0f" />
 
 ![NPD_dashboard_screenshot02](https://github.com/AnneEstoppey/NorthSea_Dashboard/assets/35219455/9f2a8f22-5c7b-4785-bc6c-bac62fb9226b)
 
@@ -58,6 +58,7 @@ https://www.youtube.com/watch?v=asFqpMDSPdM
 
 Also article from Alan Jones in Medium (subscription might be required):<br>
 https://medium.com/towards-data-science/how-to-create-a-simple-gis-map-with-plotly-and-streamlit-7732d67b84e2
+
 
 
 
